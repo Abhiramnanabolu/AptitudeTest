@@ -26,7 +26,7 @@ const SignUp = () => {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:3111/signup', {
+      const response = await fetch('https://aptitude-be.abhiramreddy.shop/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

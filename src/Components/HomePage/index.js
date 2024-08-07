@@ -9,7 +9,7 @@ const HomePage = () => {
   useEffect(() => {
     if (token) {
       // Fetch user details from the server
-      fetch('http://localhost:3111/details', {
+      fetch('https://aptitude-be.abhiramreddy.shop/details', {
         method: 'GET',
         headers: {
           'Authorization': `Bearer ${token}`,

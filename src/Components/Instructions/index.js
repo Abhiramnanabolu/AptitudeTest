@@ -15,7 +15,7 @@ const Information = () => {
     setError(null);
     const token = Cookies.get('token');
     try {
-      const response = await fetch(`http://localhost:3111/api/start-test/${category}`, {
+      const response = await fetch(`https://aptitude-be.abhiramreddy.shop/api/start-test/${category}`, {
         method: 'GET',
         headers: {
           'Authorization': `Bearer ${token}`,

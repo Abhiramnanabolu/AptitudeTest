@@ -11,7 +11,7 @@ const Dashboard = () => {
       const token = Cookies.get('token');
       if (token) {
         try {
-          const response = await fetch('http://localhost:3111/details', {
+          const response = await fetch('https://aptitude-be.abhiramreddy.shop/details', {
             headers: {
               'Authorization': `Bearer ${token}`
             }
