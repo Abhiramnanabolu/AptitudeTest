@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.border-1{
+  border-width: 1px;
+}
+
+#main-background {
+  background-image: url('https://media.istockphoto.com/id/1384110533/photo/asian-male-director-is-interviewing-to-recruit-new-employees.jpg?s=612x612&w=0&k=20&c=rR1-wkWClaIfcH7vwut8L2AXK3LML2RLQ-xZ60ZrwEE=');
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://image-assets.eu-2.volcanic.cloud/api/v1/assets/images/8766e0c06ef3ac2675cf043fadc04546');
+  mix-blend-mode: difference;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg,#4285f4, #9b72cb,#d96570, #f28b82); /* Gradient colors */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Make the text color transparent */
+  font-size: 2rem; /* Adjust font size as needed */
+  font-weight: bold; /* Adjust font weight as needed */
+  /*,#d96570, #f28b82*/
+}
+.gradient-text-2 {
+  color: #444746;
+}
+
+.bg-1{
+  background-image: url("https://i.pinimg.com/564x/4e/07/e7/4e07e7f7019f3a05f2f506fb9e6f6a6f.jpg");
+}
