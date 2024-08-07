@@ -9,6 +9,7 @@ import Categories from './Components/Categories';
 import Instructions from './Components/Instructions';
 import TestPage from './Components/Testpage';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import NotFound from './Components/NotFound';
 
 
 const App=()=>{
@@ -22,6 +23,7 @@ const App=()=>{
         <Route path="/dashboard/categories" component={Categories} />
         <Route path="/test/:category" exact component={Instructions} />
         <Route path="/test/:category/:testId" exact component={TestPage}/>
+        <Route path="*" exact component={NotFound}/>
       </Switch>
     </Router>
   )
