@@ -75,7 +75,7 @@ const TestPage = () => {
 
   const handleSubmit = async () => {
     try {
-      const response = await fetch('https://aptitude-be.abhiramreddy.shop/tests/submit', {
+      const response = await fetch('https://aptitude-be.abhiramreddy.in/tests/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

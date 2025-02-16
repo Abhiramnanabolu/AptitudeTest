@@ -26,7 +26,7 @@ const SignIn = () => {
     }
 
     try {
-      const response = await fetch('https://aptitude-be.abhiramreddy.shop/signin', {
+      const response = await fetch('https://aptitude-be.abhiramreddy.in/signin', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
